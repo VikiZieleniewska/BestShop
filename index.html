@@ -5,10 +5,94 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BestShop</title>
-    <link rel="stylesheet" href="./src/styles/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Raleway:wght@300;400;700;800&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="./src/styles/normalize.css"> -->
+    <link rel="stylesheet" href="./src/styles/reset.css">
     <link rel="stylesheet" href="./src/styles/styles.css">
 </head>
 <body>
+    <header class="header">
+        <div class="header__inner">
+            <a href="/" class="logo">
+                <span class="logo__text logo__text--primary">BestShop</span>
+            </a>
+
+            <nav class="mainMenu">
+                <a href="#intro" class="mainMenu__item mainMenu__item--active">WHY US</a>
+                <a href="#benefits" class="mainMenu__item">BENEFITS</a>
+                <a href="#prices" class="mainMenu__item">PRICES</a>
+                <a href="#contact" class="mainMenu__item">CONTACT</a>
+            </nav>
+
+        </div>
+    </header>
+
+    <section class="intro">
+        <h1>Sell More!</h1>
+        <p>Open shop on our platform and increase your sales</p>
+        <a class="callToAction" href="/">
+            Open your shop
+        </a>
+        <img class="intro__image" />
+    </section>
     
+    <section class="statistics">
+        <h2>The most popular sales platform in country</h2>
+        <div class="statistics__columns">
+            <div class="column">
+                <div class="column__picture column_picture--red">
+                    <img class="column__icon" src="./src/images/Person.svg" alt="Person icon">
+                </div>
+                <div class="column__counter">100000+</div>
+                <div class="column__text">daily entries</div>
+            </div>
+            <div class="column">
+                <div class="column__picture column_picture--blue">
+                    <img class="column__icon" src="./src/images/Eye.svg" alt="Person icon">
+                </div>
+                <div class="column__counter">2000000+</div>
+                <div class="column__text">seen products every day</div>
+            </div>
+            <div class="column">
+                <div class="column__picture column_picture--green">
+                    <img class="column__icon" src="./src/images/Catalog.svg" alt="Person icon">
+                </div>
+                <div class="column__counter">10000+</div>
+                <div class="column__text">added posts daily</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="benefits">
+        <div class="benefits__row"></div>
+        <div class="benefits__row"></div>
+        <div class="benefits__row--divided">
+            <div class="benefits__row benefits__row--short"></div>
+            <div class="benefits__row benefits__row--green"></div>
+        </div>
+    </section>
+
+    <section class="prices">
+
+    </section>
+
+    <section class="contact">
+
+    </section>
+
+    <footer class="footer">
+        <div class="footer__inner">
+            <div class="footer__inner copyright">
+                <span class="copyright__logo">BestShop</span>
+                <span class="copyright__text">&copy; 2019 BestShop LTD, All Rights Reserved</span>
+            </div>
+            <div class="footer__inner socialLinks">
+                <img class="socialLinks__icon" src="./src/images/Twitter.svg" alt="Twitter icon">
+                <img class="socialLinks__icon" src="./src/images/Facebook.svg" alt="Facebook icon">
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
