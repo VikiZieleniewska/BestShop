@@ -29,7 +29,8 @@
 }
 
 .header .header__inner {
-    width: 1352px;
+    width: 100%;
+    max-width: 1352px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -46,6 +47,7 @@
 }
 
 .mainMenu .mainMenu__item {
+    padding-bottom: 25px;
     color: var(--grey-2);
     text-decoration: none;
     margin-left: 95px;
@@ -177,7 +179,8 @@
 }
 
 .footer .footer__inner {
-    width: 1352px;
+    width: 100%;
+    max-width: 1352px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
